@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "Beetlejuice",
+    "date": "1988",
+    "status": "active"
+  },
+  {
+    "id": 2,
+    "title": "Ghostbusters",
+    "date": "1984",
+    "status": "active"
+  }
+]
