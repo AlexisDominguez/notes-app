@@ -19,5 +19,15 @@
     "project": "./tsconfig.json"
   },
   "plugins": ["react", "@typescript-eslint"],
-  "rules": { "react/jsx-filename-extension": [0, { "allow": "as-needed" }] }
+  "rules": {
+    "react/function-component-definition": [
+      0,
+      {
+        "namedComponents": "function-declaration"
+      }
+    ],
+    "react/jsx-filename-extension": [0, { "allow": "as-needed" }],
+    "react/react-in-jsx-scope": "off",
+    "no-restricted-exports": "off"
+  }
 }
