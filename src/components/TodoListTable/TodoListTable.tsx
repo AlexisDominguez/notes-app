@@ -5,7 +5,11 @@ import { TODO_LIST_TABLE_COLUMNS } from "./constants";
 
 const TodoListTable = () => (
   <div>
-    <DataTable columns={TODO_LIST_TABLE_COLUMNS} data={data as Todo[]} />
+    <DataTable
+      title="My Todo List"
+      columns={TODO_LIST_TABLE_COLUMNS}
+      data={data as Todo[]}
+    />
   </div>
 );
 

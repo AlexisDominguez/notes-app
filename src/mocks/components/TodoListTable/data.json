@@ -1,13 +1,13 @@
 [
   {
     "id": 1,
-    "title": "Beetlejuice",
+    "description": "Create a new React Component with types definition",
     "date": "1988",
     "status": "active"
   },
   {
     "id": 2,
-    "title": "Ghostbusters",
+    "description": "Submit changes to remote repository",
     "date": "1984",
     "status": "active"
   }
