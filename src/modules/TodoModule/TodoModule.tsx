@@ -1,8 +1,8 @@
-import { Card } from "@mui/material";
+import Card from "@mui/material/Card";
 import TodoListTable from "../../components/TodoListTable";
 
 const TodoModule = () => (
-  <Card sx={{ marginTop: "1rem" }}>
+  <Card>
     <TodoListTable />
   </Card>
 );
