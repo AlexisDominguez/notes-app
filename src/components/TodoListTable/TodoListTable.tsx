@@ -4,13 +4,7 @@ import { Todo } from "../../models/Todo";
 import { TODO_LIST_TABLE_COLUMNS } from "./constants";
 
 const TodoListTable = () => (
-  <div>
-    <DataTable
-      title="My Todo List"
-      columns={TODO_LIST_TABLE_COLUMNS}
-      data={data as Todo[]}
-    />
-  </div>
+  <DataTable columns={TODO_LIST_TABLE_COLUMNS} data={data as Todo[]} />
 );
 
 export default TodoListTable;
